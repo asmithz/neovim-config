@@ -14,12 +14,20 @@ return {
     --end
     --
 
-    'morhetz/gruvbox',
+    --'morhetz/gruvbox',
+    --lazy = false,
+    --priority = 1000,
+    --config = function()
+    --  vim.cmd("colorscheme gruvbox")
+    --end
+
+    'aktersnurra/no-clown-fiesta.nvim',
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd("colorscheme gruvbox")
+      vim.cmd("colorscheme no-clown-fiesta")
     end
+
 
 }
 
