@@ -21,11 +21,19 @@ return {
     --  vim.cmd("colorscheme gruvbox")
     --end
 
-    'aktersnurra/no-clown-fiesta.nvim',
+    --'aktersnurra/no-clown-fiesta.nvim',
+    --lazy = false,
+    --priority = 1000,
+    --config = function()
+    --  vim.cmd("colorscheme no-clown-fiesta")
+    --end
+    
+    'catppuccin/nvim', 
     lazy = false,
+    name = "catppuccin",
     priority = 1000,
     config = function()
-      vim.cmd("colorscheme no-clown-fiesta")
+        vim.cmd("colorscheme catppuccin-macchiato")
     end
 
 

@@ -14,5 +14,3 @@ keymap.set("n", "<c-e>", "0", { desc = "Go to start of line"})
 -- Using Option key on Mac instead of Alt 
 keymap.set("n", "<A-j>", "<C-d>", { desc = "Move up file" })
 keymap.set("n", "<A-k>", "<C-u>", { desc = "Move down file" })
-
-
