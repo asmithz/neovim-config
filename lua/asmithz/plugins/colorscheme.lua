@@ -28,14 +28,19 @@ return {
     --  vim.cmd("colorscheme no-clown-fiesta")
     --end
     
-    'catppuccin/nvim', 
+    --'catppuccin/nvim', 
+    --lazy = false,
+    --name = "catppuccin",
+    --priority = 1000,
+    --config = function()
+    --    vim.cmd("colorscheme catppuccin-mocha")
+    --end
+
+    "thesimonho/kanagawa-paper.nvim",
     lazy = false,
-    name = "catppuccin",
     priority = 1000,
-    config = function()
-        vim.cmd("colorscheme catppuccin-mocha")
-    end
-
-
+    init = function()
+      vim.cmd.colorscheme("kanagawa-paper-ink")
+    end,
+    opts = {...},
 }
-
