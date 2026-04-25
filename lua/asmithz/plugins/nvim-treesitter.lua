@@ -17,7 +17,8 @@ return {
                 "query", 
                 "javascript", 
                 "html", 
-                "go"
+                "go",
+                "astro"
             }
         })
     end
